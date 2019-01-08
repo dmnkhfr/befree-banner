@@ -1,0 +1,26 @@
+/* import fonts */
+@import url("https://use.typekit.net/fdo6aut.css");
+
+/* variables */
+:root {
+    --bg: #ffbbcc;
+    --main: #5544ff;
+}
+
+/* resets */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* canvas */
+#canvas {
+    height: 600px;
+    width: 160px;
+    background-color: var(--bg);
+    position: relative;
+}
