@@ -24,3 +24,15 @@ body {
     background-color: var(--bg);
     position: relative;
 }
+
+/* default state */
+.logo {
+    position: absolute;
+    top: calc(50% - 17px);
+    left: calc(50% - 60px);
+    width: 120px;
+}
+
+.logo .wing {
+    opacity: 0;
+}
