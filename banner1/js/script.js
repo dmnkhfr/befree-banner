@@ -24,9 +24,26 @@ animation
     .add({
         targets: '.logo',
         scale: .7,
-        translateY: '-320px',
+        translateY: '-350px',
         delay: 500,
         duration: 500,
+        easing: 'easeInOutQuad'
+    })
+    .add({
+        targets: '.title',
+        opacity: 1,
+        translateY: '20px',
+        duration: 200,
+        delay: 100,
+        easing: 'easeInOutQuad'
+    })
+    .add({
+        targets: '.act',
+        translateX: '280px',
+        delay: function(el, i, l) {
+            return i * 1000;
+        },
+        duration: 1000,
         easing: 'easeInOutQuad'
     });
   
